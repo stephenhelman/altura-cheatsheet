@@ -3,6 +3,82 @@ import { useState } from "react";
 const data = {
   phases: [
     {
+      id: "programs",
+      icon: "🏷️",
+      label: "Programs",
+      color: "#14B8A6",
+      sections: [
+        {
+          title: "Diagnose First — Always",
+          items: [
+            "NEVER ask: 'Which program do you want?'",
+            "Clean + strong profile → Executive Builder",
+            "Dirty credit (derogatories, collections) → Restoration",
+            "Clean but thin/underpowered → Optimization",
+            "Wants everything handled, max certainty → Black Label",
+          ],
+        },
+        {
+          title: "1. Executive Business Builder — $7,800",
+          items: [
+            "WHO: High scores, thick clean profile, already fundable",
+            "WHAT: Business fundability setup, lender positioning, funding execution, inquiry removal, white glove support",
+            "NOT included: No credit repair, no tradelines (they don't need it)",
+            "LENGTH: 6 months · Financing available",
+            "PITCH: 'You don't need fixing — you need clean execution.'",
+          ],
+        },
+        {
+          title: "2. Business Credit Restoration — $9,800",
+          items: [
+            "WHO: Decent/good scores BUT derogatories, collections, high inquiries holding them back",
+            "WHAT: Everything in Builder + full credit repair",
+            "LENGTH: 6 months · Financing available",
+            "PITCH: 'We need to clean this up while we build — otherwise we're forcing bad approvals.'",
+          ],
+        },
+        {
+          title: "3. Business Credit Optimization — $9,800",
+          items: [
+            "WHO: Clean credit but thin/underpowered profile — needs more accounts, age, or depth",
+            "WHAT: Everything in Builder + tradelines (primary, new, or backdated)",
+            "LENGTH: 6 months · Financing available",
+            "PITCH: 'Your credit is clean — it's just underbuilt. We add strength so lenders take you seriously.'",
+          ],
+        },
+        {
+          title: "4. Black Label Business Accelerator — $11,800",
+          items: [
+            "WHO: Wants max funding potential, no guesswork, every lever pulled simultaneously",
+            "WHAT: Everything — repair + tradelines + refinance & capital planning + white glove",
+            "LENGTH: 6 months · Financing available",
+            "PITCH: 'This removes every limitation. We clean, build, boost, and execute at the same time.'",
+          ],
+        },
+        {
+          title: "Guarantee (All Programs)",
+          items: [
+            "✅ $150,000 minimum funding guarantee",
+            "✅ We work until achieved (scope-adjusted if needed)",
+            "✅ Backend is flat and non-negotiable",
+            "FRAMING: 'We don't win by selling programs — we win by getting you more capital.'",
+          ],
+        },
+        {
+          title: "Performance-Based Entry Option",
+          items: [
+            "Use ONLY when qualified client is resistant to full upfront — NOT a discount",
+            "Executive Builder: $500 min down + 10% of all funding secured",
+            "All other programs: $2,000 min down + 10% of all funding secured",
+            "✅ Closers may collect MORE than minimum upfront",
+            "❌ Cannot reduce or negotiate the 10% backend — ever",
+            "❌ Cannot trade upfront dollars for backend changes",
+            "PITCH: 'This isn't a discount — it's a different alignment structure.'",
+          ],
+        },
+      ],
+    },
+    {
       id: "triage",
       icon: "⚡",
       label: "Lead Triage",
